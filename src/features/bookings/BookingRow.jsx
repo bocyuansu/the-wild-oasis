@@ -16,7 +16,7 @@ import {
   HiTrash,
 } from 'react-icons/hi2';
 import { useNavigate } from 'react-router-dom';
-import { useCheckout } from '../check-in-out/useCheckOut';
+import { useCheckout } from '../check-in-out/useCheckout';
 import { useDeleteBooking } from './useDeleteBooking';
 
 function Cabin({ children }) {
@@ -42,11 +42,9 @@ function Amount({ children }) {
 function BookingRow({
   booking: {
     id: bookingId,
-    created_at,
     startDate,
     endDate,
     numNights,
-    numGuests,
     totalPrice,
     status,
     guests: { fullName: guestName, email },
@@ -54,7 +52,7 @@ function BookingRow({
   },
 }) {
   const navigate = useNavigate();
-  const { checkout, isCheckingOut } = useCheckout();
+  const { checkout } = useCheckout();
   const { deleteBooking, isDeleting } = useDeleteBooking();
 
   const statusToTagName = {
