@@ -13,7 +13,7 @@ import Modal from '../../ui/Modal';
 import Empty from '../../ui/Empty';
 
 import { useBooking } from './useBooking';
-import { useCheckout } from '../check-in-out/useCheckOut';
+import { useCheckout } from '../check-in-out/useCheckout';
 import { useDeleteBooking } from './useDeleteBooking';
 
 function HeadingGroup({ children }) {
