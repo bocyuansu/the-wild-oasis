@@ -4,11 +4,11 @@
 
 # 技術說明
 
-工具：使用 Vite 快速建立 React 專案
-前端：React + Tailwind
-後端：Supabase
-路由：React Router
-伺服器狀態管理：TanStack Query（前身 React Query）
+- 工具：使用 Vite 快速建立 React 專案
+- 前端：React + Tailwind
+- 後端：Supabase
+- 路由：React Router
+- 伺服器狀態管理：TanStack Query（前身 React Query）
 
 # 功能說明
 
