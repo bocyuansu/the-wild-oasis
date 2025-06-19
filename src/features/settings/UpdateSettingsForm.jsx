@@ -28,7 +28,7 @@ function UpdateSettingsForm() {
 
   return (
     <Form>
-      <FormRow label="Minimum nights/booking">
+      <FormRow label="每筆訂單入住天數下限">
         <Input
           type="number"
           id="min-nights"
@@ -38,7 +38,7 @@ function UpdateSettingsForm() {
         />
       </FormRow>
 
-      <FormRow label="Maximum nights/booking">
+      <FormRow label="每筆訂單入住天數上限">
         <Input
           type="number"
           id="max-nights"
@@ -48,7 +48,7 @@ function UpdateSettingsForm() {
         />
       </FormRow>
 
-      <FormRow label="Maximum guests/booking">
+      <FormRow label="每筆訂單入住客人上限">
         <Input
           type="number"
           id="max-guests"
